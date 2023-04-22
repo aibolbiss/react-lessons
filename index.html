@@ -11,6 +11,16 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>React</title>
+    <style>
+      .container {
+        text-align: center;
+      }
+      .btn-green {
+        background-color: green;
+        color: white;
+        border: 1px solid black;
+      }
+    </style>
   </head>
   <body>
     <div id="app"></div>
@@ -25,12 +35,9 @@
     ></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-    <script type="text/babel">
-      const element = <h1>Hello from React</h1>;
-
-      const container = document.getElementById('app');
-      const root = ReactDOM.createRoot(container);
-      root.render(element);
-    </script>
+    <script
+      src="script.js"
+      type="text/babel"
+    ></script>
   </body>
 </html>
